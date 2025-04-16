@@ -32,11 +32,11 @@ const description =
  */
 const skillsList = [
   "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "UI",
+  "Design Inclusivo",
+  "Estudante em cybersegurança",
+  "Estudante em engenharia da Computação",
+  "Estudante em analise de dados",
 ];
 
 /**
@@ -60,7 +60,7 @@ const About = () => {
           textAlign: "center",
         }}
       >
-        <h2>About Myself</h2>
+        <h2>Sobre mim</h2>
         <p className="large">{description}</p>
         <hr />
         <ul
