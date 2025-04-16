@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "http://EliasIsac1996.github.io/EstudosdoGitHubStudent",
+  "homepage": "https://github.com/EliasIsac1996/EstudosdoGitHubStudent",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://EliasIsac1996.github.io/EstudosdoGitHubStudent",
+    "build-gh": "parcel build --public-url 'https://EliasIsac1996.github.io/EstudosdoGitHubStudent'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
